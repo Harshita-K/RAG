@@ -1,0 +1,81 @@
+id,gold,chunk_id,section,bi_rank,bi_score,ce_rank,ce_score
+Q1,,254,Article 14 – Information to be provided where personal data ,1,0.478,9,-11.23
+Q1,,250,Article 13 – Information to be provided where personal data ,2,0.448,8,-11.2
+Q1,,257,Article 14 – Information to be provided where personal data ,3,0.438,7,-11.17
+Q1,,258,Article 14 – Information to be provided where personal data ,4,0.433,2,-10.99
+Q1,,270,Article 19 – Notification obligation regarding rectification,5,0.431,3,-11.07
+Q1,,296,Article 30 – Records of processing activities,6,0.43,10,-11.25
+Q1,,263,Article 15 – Right of access by the data subject,7,0.429,6,-11.16
+Q1,★,16,Recital (18),8,0.421,1,-4.08
+Q1,,251,Article 13 – Information to be provided where personal data ,9,0.417,5,-11.12
+Q1,,215,Article 4 – Definitions,10,0.414,4,-11.12
+Q2,,277,"Article 22 – Automated individual decision-making, including",1,0.425,3,-6.78
+Q2,,85,Recital (71),2,0.418,4,-7.49
+Q2,,88,Recitals (71)–(72),3,0.377,2,-6.52
+Q2,★,276,"Article 22 – Automated individual decision-making, including",4,0.365,1,-5.15
+Q2,,48,Recital (46),5,0.348,8,-11.08
+Q2,,79,Recital (67),6,0.336,7,-10.75
+Q2,,253,Article 13 – Information to be provided where personal data ,7,0.334,5,-9.08
+Q2,,25,Recitals (24)–(25),8,0.319,6,-10.01
+Q2,,49,Recital (47),9,0.318,10,-11.15
+Q2,,119,Recital (97),10,0.318,9,-11.1
+Q3,,306,Article 34 – Communication of a personal data breach to the ,1,0.63,1,1.41
+Q3,,304,Article 33 – Notification of a personal data breach to the s,2,0.621,6,-1.18
+Q3,,303,Article 33 – Notification of a personal data breach to the s,3,0.619,4,-0.21
+Q3,,107,Recital (87),4,0.617,7,-1.29
+Q3,★,305,Article 34 – Communication of a personal data breach to the ,5,0.614,3,0.55
+Q3,,108,Recital (88),6,0.612,5,-1.08
+Q3,,106,Recital (86),7,0.57,8,-1.34
+Q3,,105,Recital (85),8,0.562,2,0.96
+Q3,,426,Article 70 – Tasks of the Board,9,0.561,9,-1.53
+Q3,,425,Article 70 – Tasks of the Board,10,0.536,10,-4.66
+Q4,,247,"Article 12 – Transparent information, communication and moda",1,0.637,4,0.13
+Q4,,74,Recital (63),2,0.622,6,-1.98
+Q4,,67,Recital (57),3,0.618,3,0.13
+Q4,★,258,Article 14 – Information to be provided where personal data ,4,0.605,2,1.28
+Q4,,49,Recital (47),5,0.592,9,-3.82
+Q4,,81,Recital (68),6,0.588,10,-4.08
+Q4,,75,Recital (64),7,0.586,7,-2.77
+Q4,,270,Article 19 – Notification obligation regarding rectification,8,0.575,1,3.63
+Q4,,243,Article 11 – Processing which does not require identificatio,9,0.575,5,-0.98
+Q4,,245,"Article 12 – Transparent information, communication and moda",10,0.571,8,-3.73
+Q5,,66,Recitals (54)–(56),1,0.638,4,0.94
+Q5,,5,Recital (6),2,0.625,8,-2.31
+Q5,,197,Recitals (158)–(159),3,0.615,3,1.86
+Q5,,216,Article 4 – Definitions,4,0.606,5,0.56
+Q5,,137,Recital (112),5,0.588,6,-0.71
+Q5,,72,Recital (62),6,0.586,9,-3.56
+Q5,,4,Recital (5),7,0.578,7,-1.25
+Q5,,30,Recital (31),8,0.574,1,7.46
+Q5,,27,Recitals (26)–(28),9,0.574,10,-3.59
+Q5,★,217,Article 4 – Definitions,10,0.568,2,6.72
+Q6,,321,Article 38 – Position of the data protection officer,1,0.621,2,1.92
+Q6,,319,Article 37 – Designation of the data protection officer,2,0.573,3,1.22
+Q6,,323,Article 39 – Tasks of the data protection officer,3,0.529,5,0.5
+Q6,,317,Article 37 – Designation of the data protection officer,4,0.522,7,-0.2
+Q6,,322,Article 39 – Tasks of the data protection officer,5,0.519,4,0.8
+Q6,★,320,Article 38 – Position of the data protection officer,6,0.509,1,2.59
+Q6,,107,Recital (87),7,0.5,10,-6.38
+Q6,,318,Article 37 – Designation of the data protection officer,8,0.496,6,0.4
+Q6,,304,Article 33 – Notification of a personal data breach to the s,9,0.479,9,-2.6
+Q6,,385,Article 57 – Tasks,10,0.462,8,-0.78
+Q7,,239,Article 9 – Processing of special categories of personal dat,1,0.624,2,1.34
+Q7,,64,Recital (53),2,0.589,4,-0.3
+Q7,,73,Recital (63),3,0.548,10,-3.52
+Q7,★,237,Article 9 – Processing of special categories of personal dat,4,0.541,9,-3.07
+Q7,,240,Article 9 – Processing of special categories of personal dat,5,0.541,5,-1.2
+Q7,,61,Recital (52),6,0.539,1,4.85
+Q7,,236,Article 9 – Processing of special categories of personal dat,7,0.534,3,0.68
+Q7,,63,Recitals (52)–(53),8,0.526,6,-1.26
+Q7,,59,Recital (51),9,0.522,8,-2.67
+Q7,,241,Article 9 – Processing of special categories of personal dat,10,0.521,7,-1.69
+Q8,,48,Recital (46),1,0.491,1,1.12
+Q8,★,228,Article 6 – Lawfulness of processing,2,0.489,5,-4.01
+Q8,,93,Recital (77),3,0.457,10,-7.63
+Q8,,301,Article 32 – Security of processing,4,0.451,9,-7.2
+Q8,,59,Recital (51),5,0.426,2,-1.8
+Q8,,178,Recital (146),6,0.426,3,-2.94
+Q8,,299,Article 30 – Records of processing activities,7,0.424,8,-6.97
+Q8,,295,Article 29 – Processing under the authority of the controlle,8,0.423,4,-3.91
+Q8,★,237,Article 9 – Processing of special categories of personal dat,9,0.423,6,-5.31
+Q8,,77,Recital (65),10,0.416,7,-6.05

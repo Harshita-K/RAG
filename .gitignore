@@ -1,0 +1,17 @@
+# Model weights (8.8 GB) - downloaded from Hugging Face on first run
+models/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store

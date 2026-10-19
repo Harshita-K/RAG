@@ -1,0 +1,5 @@
+corpus size (chunks),"Cross-Encoder over all chunks, per query","Bi-Encoder + top-10 re-rank, per query"
+478,7.49 s,0.12 s*
+"10,000",2.6 min,0.12 s*
+"1,000,000",4.4 hours,0.12 s*
+"100,000,000",18.1 days,0.12 s*

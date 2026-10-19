@@ -1,0 +1,10 @@
+torch>=2.2
+transformers==4.55.1
+sentence-transformers==5.1.0
+faiss-cpu>=1.8
+pymupdf>=1.24
+numpy
+pandas
+ipykernel
+# optional: only needed if GEMINI_API_KEY is set
+google-genai

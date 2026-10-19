@@ -1,0 +1,238 @@
+[
+  {
+    "top_baseline": [
+      254,
+      250,
+      257
+    ],
+    "top_rerank": [
+      16,
+      258,
+      270
+    ],
+    "answer_1": "Not found in the provided context. \n\nThe provided context discusses the GDPR's requirements for providing information to data subjects regarding personal data collection and processing. However, it does not specifically address the situation of keeping a personal address book. Therefore, we cannot determine whether the GDPR applies to someone keeping a personal address book based solely on the given information.",
+    "answer_2": "Based on Recital (18) from Chunk 16, the GDPR does not apply to the processing of personal data by a natural person in purely personal or household activities. However, since the GDPR does apply to controllers or processors which provide the means for processing personal data for such personal or household activities, someone keeping a personal address book might still fall under the regulation if they are providing services for this purpose. Therefore, while the primary scope of the GDPR does not cover personal address books, there could be instances where it does apply depending on the specific circumstances.",
+    "timing": {
+      "query_embed_ms": 17.718374998366926,
+      "vector_search_ms": 0.48441599938087165,
+      "rerank_ms": 155.23554100218462,
+      "llm_1_ms": 24283.196500000486,
+      "llm_2_ms": 39057.77295799635
+    },
+    "id": "Q1",
+    "type": "Keyword trap / distractor",
+    "query": "Does the GDPR apply to someone keeping a personal address book?",
+    "gold_phrase": "purely personal or household activity",
+    "note": "Everyday words ('address book', 'apply') overlap with the information-duty articles; the answer uses legal wording ('purely personal or household activity').",
+    "gold": [
+      15,
+      16,
+      210
+    ]
+  },
+  {
+    "top_baseline": [
+      277,
+      85,
+      88
+    ],
+    "top_rerank": [
+      276,
+      88,
+      277
+    ],
+    "answer_1": "Based on Recital (71) and Article 22, decisions based solely on automated processing and producing legal effects for the data subject, such as automatically refusing an online credit application, are generally prohibited. However, such automated decision-making can be allowed under specific conditions, as mentioned in Recital (71) and Article 22. These conditions include ensuring that suitable measures are in place to safeguard the data subject's rights and freedoms and legitimate interests, and that the processing does not involve special categories of personal data. [Chunk 277 | page 46], [Chunk 85 | page 14], [Chunk 88 | page 14]",
+    "answer_2": "Based on the information provided in [Chunk 276 | page 46], a decision based solely on automated processing, including profiling, cannot be made if it significantly affects the individual. There are exceptions where such decisions can be made, such as when they are necessary for entering into or performing a contract, or when authorized by laws that provide suitable measures to protect the individual's rights and freedoms. However, in these cases, the individual must still have certain rights, such as the right to obtain human intervention from the controller. [Chunk 276 | page 46]",
+    "timing": {
+      "query_embed_ms": 19.361833001312334,
+      "vector_search_ms": 0.534124999830965,
+      "rerank_ms": 160.30366600170964,
+      "llm_1_ms": 42750.43729200115,
+      "llm_2_ms": 37702.32741700602
+    },
+    "id": "Q2",
+    "type": "Keyword trap / synonym",
+    "query": "Can a decision about me be made only by a computer algorithm?",
+    "gold_phrase": "decision based solely on automated processing, including profiling, which produces legal effects",
+    "note": "The regulation never says 'algorithm'; Article 22 says 'solely on automated processing'.",
+    "gold": [
+      276
+    ]
+  },
+  {
+    "top_baseline": [
+      306,
+      304,
+      303
+    ],
+    "top_rerank": [
+      306,
+      105,
+      305
+    ],
+    "answer_1": "According to the provided context, a company does not need to tell affected users about a data breach if the personal data breach is \"unlikely to result in a risk to the rights and freedoms of natural persons\" [Chunk 304]. Additionally, if the notification to the supervisory authority is not made within 72 hours, it must be accompanied by reasons for the delay [Chunk 303]. However, these exceptions do not pertain to informing the data subjects directly. Therefore, if the breach poses a risk, the company should inform the affected users [Chunk 304].",
+    "answer_2": "According to Article 34 of the GDPR, a company does not need to tell affected users about a data breach if they have implemented appropriate technical and organizational protection measures. These measures include applying encryption to the personal data affected by the breach, rendering the personal data unintelligible to unauthorized individuals. This condition is detailed in [Chunk 305 | page 52].",
+    "timing": {
+      "query_embed_ms": 151.46237500448478,
+      "vector_search_ms": 5.957958994258661,
+      "rerank_ms": 159.56658399954904,
+      "llm_1_ms": 50238.798958998814,
+      "llm_2_ms": 24733.961208999972
+    },
+    "id": "Q3",
+    "type": "Exception / corner case",
+    "query": "When does a company not need to tell affected users about a data breach?",
+    "gold_phrase": "shall not be required if any of the following conditions are met",
+    "note": "The general duty (Art. 33/34(1)) is easy to find; the exemptions in Art. 34(3) sit in a separate chunk.",
+    "gold": [
+      305
+    ]
+  },
+  {
+    "top_baseline": [
+      247,
+      74,
+      67
+    ],
+    "top_rerank": [
+      270,
+      258,
+      67
+    ],
+    "answer_1": "Based on the provided context, if a controller gets personal data from another source and it becomes disproportionate to contact the data subject due to the complexity or volume of the data, the controller may either charge a reasonable fee or refuse to act on the request. This is mentioned in Recital (63) of the GDPR, as stated in [Chunk 74 | page 12]. However, the controller must still bear the burden of demonstrating that the request is manifestly unfounded or excessive. Therefore, there is no explicit exemption for controllers from informing people when they get their data from another source, but there is a condition where contacting the data subject might be disproportionate.",
+    "answer_2": "Based on Recital (57) in Chunk 67, if the personal data do not permit the controller to identify a natural person, the controller is not obliged to acquire additional information solely for compliance with GDPR provisions. However, the passage also states that the controller should not refuse to provide additional information if it is given by the data subject. Therefore, while there is an exception for disproportionate effort, the core principle is that the controller should not refuse to provide information if requested. [Chunk 67]",
+    "timing": {
+      "query_embed_ms": 31.80433400120819,
+      "vector_search_ms": 0.5687500015483238,
+      "rerank_ms": 403.1941669963999,
+      "llm_1_ms": 47597.554082996794,
+      "llm_2_ms": 32019.148624996888
+    },
+    "id": "Q4",
+    "type": "Exception / corner case",
+    "query": "Is a controller exempt from informing people when it got their data from someone else and contacting them would take disproportionate effort?",
+    "gold_phrase": "would involve a disproportionate effort",
+    "note": "The exemption is in Art. 14(5), far from the general transparency rules in Art. 12.",
+    "gold": [
+      258,
+      259
+    ]
+  },
+  {
+    "top_baseline": [
+      66,
+      5,
+      197
+    ],
+    "top_rerank": [
+      30,
+      217,
+      197
+    ],
+    "answer_1": "Based on the provided context, there is no explicit mention of public bodies that are not regarded as recipients of personal data. The recitals discuss various scenarios where personal data can be processed for public interest purposes, but they do not specify which public bodies are excluded from being recipients of personal data. Therefore, the answer is:\n\nNot found in the provided context.",
+    "answer_2": "According to Recital (31) in Chunk 30, public authorities to which personal data are disclosed in accordance with a legal obligation for the exercise of their official mission, such as tax and customs authorities, financial investigation units, independent administrative authorities, or financial market authorities responsible for the regulation and supervision of securities markets, should not be regarded as recipients if they receive personal data which are necessary to carry out a particular inquiry in the general interest, in accordance with Union or Member State law. This condition applies even if the public authorities process the data in compliance with applicable data protection rules.",
+    "timing": {
+      "query_embed_ms": 164.0140000017709,
+      "vector_search_ms": 6.001540998113342,
+      "rerank_ms": 152.30608400452184,
+      "llm_1_ms": 22851.99454200483,
+      "llm_2_ms": 37350.276875004056
+    },
+    "id": "Q5",
+    "type": "Negation & constraints",
+    "query": "Which public bodies are not regarded as recipients of personal data?",
+    "gold_phrase": "shall not be regarded as recipients",
+    "note": "The answer is a 'shall not be regarded' clause hidden inside the Art. 4 definitions list.",
+    "gold": [
+      217
+    ]
+  },
+  {
+    "top_baseline": [
+      321,
+      319,
+      323
+    ],
+    "top_rerank": [
+      320,
+      321,
+      319
+    ],
+    "answer_1": "Based on the information provided in the passages, there is no explicit mention of whether the data protection officer can be fired for doing their job. However, it is stated that the controller or processor must ensure that any additional tasks assigned to the data protection officer do not result in a conflict of interests. This implies that the primary role of the data protection officer cannot be compromised, but it does not directly address the issue of termination. Therefore, we cannot definitively conclude from the given information whether the data protection officer can be fired for performing their duties. [Chunk 321 | page 56]",
+    "answer_2": "According to [Chunk 320 | page 55], the controller and processor shall ensure that the data protection officer does not receive any instructions regarding the exercise of those tasks and shall not be dismissed or penalized by the controller or the processor for performing his tasks. Therefore, the data protection officer cannot be fired for doing their job as long as they follow the guidelines set forth in the regulation.",
+    "timing": {
+      "query_embed_ms": 23.8368329955847,
+      "vector_search_ms": 0.6009589997120202,
+      "rerank_ms": 139.82754099561134,
+      "llm_1_ms": 36905.110207997495,
+      "llm_2_ms": 25099.67562500242
+    },
+    "id": "Q6",
+    "type": "Negation & role limits",
+    "query": "Can the data protection officer be fired for doing their job?",
+    "gold_phrase": "shall not be dismissed or penalised",
+    "note": "All DPO articles (37–39) look alike to the Bi-Encoder; only one chunk holds the protection clause.",
+    "gold": [
+      320
+    ]
+  },
+  {
+    "top_baseline": [
+      239,
+      64,
+      73
+    ],
+    "top_rerank": [
+      61,
+      239,
+      236
+    ],
+    "answer_1": "Based on the provided context, there are no explicit prohibitions on employers processing health data about employees. However, there are conditions and exceptions mentioned. According to Recital (63), employees have the right to know and obtain communication regarding their health data, including diagnoses, examination results, and treatments. Additionally, Article 9(h) mentions that processing of health data for preventive or occupational medicine, medical diagnosis, or providing health or social care can be necessary under certain conditions and safeguards. Therefore, while there are restrictions, it does not outright prohibit employers from processing health data about employees under specific circumstances. [Chunk 73, Chunk 64]",
+    "answer_2": "Based on the information provided in the passages, there are no explicit prohibitions on employers processing health data about employees. However, such processing would need to meet certain conditions to be lawful. Specifically, Article 9(9) states that processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment, or the management of health or social care systems and services on the basis of Union or Member State law or pursuant to contract with a health professional. Therefore, under these conditions, processing health data about employees would not be prohibited. [Chunk 236, Chunk 239]",
+    "timing": {
+      "query_embed_ms": 24.08616699540289,
+      "vector_search_ms": 0.7312910020118579,
+      "rerank_ms": 162.77570799866226,
+      "llm_1_ms": 40766.725625006075,
+      "llm_2_ms": 43923.77200000192
+    },
+    "id": "Q7",
+    "type": "Counter-example (re-ranking hurts)",
+    "query": "Is an employer prohibited from processing health data about employees?",
+    "gold_phrase": "in the field of employment and social security and social protection law",
+    "note": "Kept to show a failure of the Cross-Encoder.",
+    "gold": [
+      237
+    ]
+  },
+  {
+    "top_baseline": [
+      48,
+      228,
+      93
+    ],
+    "top_rerank": [
+      48,
+      59,
+      178
+    ],
+    "answer_1": "According to Recital (46) in Chunk 48, processing of personal data can be lawful if it is necessary to protect an interest which is essential for the life of the data subject or that of another natural person. However, Article 6 in Chunk 228 specifies that processing based on the vital interest of another natural person should in principle take place only where the processing cannot be manifestly based on another legal basis. Therefore, while saving someone's life is a valid reason for processing personal data, it must not be the only basis for such processing unless no other legal basis exists. [Chunk 48, Chunk 228]",
+    "answer_2": "According to Recital (46) in [Chunk 48], processing of personal data can be considered lawful if it is necessary to protect an interest which is essential for the life of the data subject or that of another natural person. However, processing based on the vital interest of another natural person should in principle take place only where the processing cannot be manifestly based on another legal basis. Therefore, while saving someone's life could justify processing under certain conditions, it must not be the sole reason and should not be the default option. [Chunk 48] and [Chunk 59] provide the relevant recitals.",
+    "timing": {
+      "query_embed_ms": 12.02387500234181,
+      "vector_search_ms": 0.5189999938011169,
+      "rerank_ms": 140.1655829977244,
+      "llm_1_ms": 40773.663457999646,
+      "llm_2_ms": 38977.808291994734
+    },
+    "id": "Q8",
+    "type": "Counter-example (re-ranking hurts)",
+    "query": "Is processing allowed to save someone's life?",
+    "gold_phrase": "vital interests of the data subject or of another natural person",
+    "note": "Kept to show a failure of the Cross-Encoder.",
+    "gold": [
+      228,
+      237
+    ]
+  }
+]

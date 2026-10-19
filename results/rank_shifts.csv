@@ -1,0 +1,9 @@
+id,type,gold chunk,baseline rank,re-ranked rank,shift,gold in LLM context (P1),gold in LLM context (P2)
+Q1,Keyword trap / distractor,16 (Recital (18)),8,1,#8 → #1,False,True
+Q2,Keyword trap / synonym,276 (Article 22 – Automated individual decision-ma),4,1,#4 → #1,False,True
+Q3,Exception / corner case,305 (Article 34 – Communication of a personal data),5,3,#5 → #3,False,True
+Q4,Exception / corner case,258 (Article 14 – Information to be provided where),4,2,#4 → #2,False,True
+Q5,Negation & constraints,217 (Article 4 – Definitions),10,2,#10 → #2,False,True
+Q6,Negation & role limits,320 (Article 38 – Position of the data protection ),6,1,#6 → #1,False,True
+Q7,Counter-example (re-ranking hurts),237 (Article 9 – Processing of special categories ),4,9,#4 → #9,False,False
+Q8,Counter-example (re-ranking hurts),228 (Article 6 – Lawfulness of processing),2,5,#2 → #5,True,False
