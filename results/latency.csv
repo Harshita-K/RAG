@@ -1,7 +1,7 @@
 stage,Pipeline 1 (ms),Pipeline 2 (ms)
-Query embedding (Bi-Encoder),5.9 ± 0.4,5.9 ± 0.4
-"Vector search (FAISS, top 10)",0.042 ± 0.020,0.042 ± 0.020
-Cross-Encoder re-rank (10 pairs),–,117.6 ± 23.1
-Retrieval total,5.9 ± 0.4,123.5 ± 23.3
-LLM generation (Qwen2.5-3B-Instruct),38270.9 ± 9986.0,34858.1 ± 6937.3
-End-to-end,38277,34982
+Query embedding (Bi-Encoder),6.5 ± 0.7,6.5 ± 0.7
+"Vector search (FAISS, top 10)",0.047 ± 0.022,0.047 ± 0.022
+Cross-Encoder re-rank (10 pairs),–,130.9 ± 11.9
+Retrieval total,6.5 ± 0.7,137.5 ± 12.1
+LLM generation (Qwen2.5-3B-Instruct),38422.8 ± 10311.3,35166.6 ± 6041.6
+End-to-end,38429,35304
